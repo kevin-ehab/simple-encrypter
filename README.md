@@ -30,11 +30,11 @@ Each method:
 import simple_encrypter
 
 # Encrypt a piece of text
-result = password_encrypter.encrypt("Hi! my name is Kevin.")
+result = simple_encrypter.encrypt("Hi! my name is Kevin.")
 print("Encrypted:", result)
 
 # Decrypt it back
-original = password_encrypter.decrypt(result)
+original = simple_encrypter.decrypt(result)
 print("Decrypted:", original)
 ```
 Output:
